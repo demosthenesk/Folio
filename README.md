@@ -8,7 +8,7 @@ It is built on open components: [Tesseract](https://github.com/tesseract-ocr/tes
 recognition, [MuPDF / PyMuPDF](https://pymupdf.readthedocs.io) for PDF rendering and editing, and
 [Qt 6](https://www.qt.io) (PySide6) for the interface. Target platform: Ubuntu 24.04 (x86_64).
 
-![Folio Reader start window](docs/screenshots/start.png)
+![Folio Reader — start window](docs/screenshots/start.png)
 
 ## The apps
 
@@ -32,7 +32,9 @@ recognition, [MuPDF / PyMuPDF](https://pymupdf.readthedocs.io) for PDF rendering
 - **Save As** Searchable PDF, Image-only PDF, DOCX, XLSX, PPTX, ODT, HTML, EPUB, FB2, DjVu, RTF, TXT, CSV
   or page images.
 
-![PDF editor](docs/screenshots/pdf.png)
+![Folio Reader — PDF editor with highlights, a note, a stamp and the comments pane](docs/screenshots/pdf.png)
+
+![Folio Reader — Convert to Microsoft Word](docs/screenshots/convert.png)
 
 ### Folio OCR Editor
 
@@ -48,7 +50,7 @@ recognition, [MuPDF / PyMuPDF](https://pymupdf.readthedocs.io) for PDF rendering
 - **Send To** a word processor, spreadsheet, presentation, web browser, the clipboard or the PDF editor.
 - **Hot Folder** watches a folder and converts every new file automatically.
 
-![OCR Editor](docs/screenshots/ocr.png)
+![Folio OCR Editor — numbered areas, recognized English and Greek text, uncertain word and zoom pane](docs/screenshots/ocr.png)
 
 ### Folio Compare
 
@@ -59,7 +61,7 @@ recognition, [MuPDF / PyMuPDF](https://pymupdf.readthedocs.io) for PDF rendering
   recognized automatically.
 - Save the result as a PDF with comments, a DOCX with tracked changes, or a comparison report.
 
-![Compare](docs/screenshots/compare.png)
+![Folio Compare — two drafts side by side with the differences listed](docs/screenshots/compare.png)
 
 ### Folio Snap
 
@@ -70,7 +72,9 @@ recognition, [MuPDF / PyMuPDF](https://pymupdf.readthedocs.io) for PDF rendering
 - Command line for keyboard shortcuts:
   `Folio-Snap-<version>-x86_64.AppImage --go --capture area --send "Text to Clipboard" --lang eng+ell`
 
-![Snap](docs/screenshots/snap.png)
+![Folio Snap — main window](docs/screenshots/snap.png)
+
+![Folio Snap — selecting an area to capture](docs/screenshots/snap-capture.png)
 
 ## Installing and running the AppImages
 
