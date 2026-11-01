@@ -1,0 +1,9 @@
+PySide6-Essentials>=6.7
+pymupdf>=1.25
+pillow
+numpy
+python-docx
+openpyxl
+python-pptx
+odfpy
+jeepney
